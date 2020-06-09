@@ -1,6 +1,6 @@
 <?php
 
-namespace Submtd\LaravelWantsJson;
+namespace Submtd\LaravelWantsJson\Middleware;
 
 use Closure;
 use Illuminate\Http\Request;
