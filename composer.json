@@ -1,0 +1,24 @@
+{
+    "name": "submtd/laravel-wants-json",
+    "description": "Forces the Accept header to application/json for API requests",
+    "authors": [
+        {
+            "name": "Steve Harmeyer",
+            "email": "harmeyersteve@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "Submtd\\LaravelWantsJson\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Submtd\\LaravelWantsJson\\Providers\\WantsJsonServiceProvider"
+            ]
+        }
+    }
+}
